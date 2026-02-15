@@ -13,9 +13,13 @@ Customer churn threatens TruSource’s revenue stability because acquiring new c
 1. Clone the repository.
 2. Install required libraries (catboost, scikit-learn, pandas, numpy, shap, matplotlib).
 3. Place the dataset in the /data folder.
-4. Run the preprocessing and feature engineering notebook/script.
-5. Execute the modeling pipeline to reproduce cross-validation and final metrics.
-6. Open the segmentation and interpretation notebooks to view SHAP results and strategy outputs.
+4. Start with Exploratory EDA
+5. Run the preprocessing and feature engineering notebook/script.
+6. Execute the modeling pipeline to reproduce cross-validation and final metrics.
+7. Open the segmentation and interpretation notebooks to view SHAP results and strategy outputs.
+8. Optional: Run K-mean segmentation to devise churn management recommendations based on groups
+9. Use scoring code to predict churn probablity on unseen data
+   
 
 # Limitation / Risk
 Customer behavior and competitive offers change over time. Without regular retraining and performance monitoring, model accuracy and segment definitions may degrade, reducing the effectiveness of retention interventions.
